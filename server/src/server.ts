@@ -1,15 +1,10 @@
 import express from 'express';
+import routes from './routes';
 
 const app = express();
 
-app.get('/users', (request, response) => {
-  const users = [
-    { name: 'Thaís', age:23 },
-    { name: 'Marcelo', age:24 }
+app.use(express.json());
 
-  ]
-  return response.json(users);
-});
-
+app.use(routes);
 
 app.listen(3333);
