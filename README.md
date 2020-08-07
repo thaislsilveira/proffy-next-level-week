@@ -36,4 +36,8 @@ yarn start
 
 ## Web :computer:
 
-![Proffy](https://github.com/thaislsilveira/proffy-next-level-week/blob/master/web/src/assets/images/Peek%2007-08-2020%2017-17.gif)
+![ProffyWeb](https://github.com/thaislsilveira/proffy-next-level-week/blob/master/web/src/assets/images/Peek%2007-08-2020%2017-17.gif)
+
+## Mobile :iphone:
+
+![ProffyMobile](https://github.com/thaislsilveira/proffy-next-level-week/blob/master/web/src/assets/images/Peek%2007-08-2020%2017-17.gif)
