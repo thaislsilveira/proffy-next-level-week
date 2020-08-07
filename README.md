@@ -40,6 +40,4 @@ yarn start
 
 ## Mobile :iphone:
 
-![ProffyMobile](https://github.com/thaislsilveira/proffy-next-level-week/blob/master/mobile/assets/mobilegif01.gif)
-
-![ProffyMobileList](https://github.com/thaislsilveira/proffy-next-level-week/blob/master/mobile/assets/mobilegif02.gif)
+![ProffyMobile](https://github.com/thaislsilveira/proffy-next-level-week/blob/master/mobile/assets/mobilegif01.gif) ![ProffyMobileList](https://github.com/thaislsilveira/proffy-next-level-week/blob/master/mobile/assets/mobilegif02.gif)
