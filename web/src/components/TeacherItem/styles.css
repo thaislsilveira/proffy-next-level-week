@@ -56,19 +56,19 @@
 }
 
 .teacher-item footer a {
-  width: 20rem;
-  height: 5.6rem;
-  background: var(--color-secundary);
-  color: var(--color-button-text);
-  border: 0;
-  border-radius: 0.8rem;
-  cursor: pointer;
-  font: 700 1.4rem Archivo;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  transition: 0.2s;
+  justify-content: space-evenly;
+  width: 20rem;
+  height: 5.6rem;
+  font: 700 1.4rem Archivo;
   text-decoration: none;
+  color: var(--color-button-text);
+  background: var(--color-secundary);
+  border: 0;
+  border-radius: .8rem;
+  transition: .2s;
+  cursor: pointer;
 }
 
 .teacher-item footer a:hover {
