@@ -2,39 +2,47 @@ import React from 'react';
 import { View, Image, Text } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 
-import styles from './styles';
-
 import heartOutlineIcon from '../../assets/images/icons/heart-outline.png';
 import unfavoriteIcon from '../../assets/images/icons/unfavorite.png';
 import whatsappIcon from '../../assets/images/icons/whatsapp.png';
 
-function TeacherItem() {
+import styles from './styles';
+
+export interface Teacher {
+  id: number;
+  avatar: string;
+  bio: string;
+  cost: number;
+  name: string;
+  subject: string;
+  whatsapp: string;
+}
+
+interface TeacherItemProps {
+  teacher: Teacher;
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
   return (
     <View style={styles.container}>
       <View style={styles.profile}>
         <Image
           source={{
-            uri:
-              'https://avatars3.githubusercontent.com/u/34002389?s=460&u=87794bfaceacc304760b3329b20af09ed10e2c1b&v=4',
+            uri: teacher.avatar,
           }}
           style={styles.avatar}
         />
 
         <View style={styles.profileInfo}>
-          <Text style={styles.name}>Thaís Silveira</Text>
-          <Text style={styles.subjext}>Matemática</Text>
+          <Text style={styles.name}>{teacher.name}</Text>
+          <Text style={styles.subjext}>{teacher.subject}</Text>
         </View>
       </View>
-      <Text style={styles.bio}>
-        Apaixonada por números.
-        {'\n'}
-        {'\n'}
-        Empenhada em ensinar seus alunos da melhor forma possível.
-      </Text>
+      <Text style={styles.bio}>{teacher.bio}</Text>
       <View style={styles.footer}>
         <Text style={styles.price}>
           Preço/hora {'   '}
-          <Text style={styles.priceValue}>R$ 20,00</Text>
+          <Text style={styles.priceValue}>R$ {teacher.cost}</Text>
         </Text>
         <View style={styles.buttonContainer}>
           <RectButton style={[styles.favoriteButton, styles.favorited]}>
@@ -49,6 +57,6 @@ function TeacherItem() {
       </View>
     </View>
   );
-}
+};
 
 export default TeacherItem;
