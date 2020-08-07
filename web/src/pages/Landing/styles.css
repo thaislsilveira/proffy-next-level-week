@@ -75,7 +75,7 @@
 }
 
 .buttons-container a img {
-  margin-right: 2.4rem;
+  margin-right: 1.8rem;
 }
 
 .total-connections {
@@ -106,6 +106,7 @@
   .logo-container {
     grid-area: logo;
     align-self: center;
+    text-align: left;
     margin: 0;
   }
 
