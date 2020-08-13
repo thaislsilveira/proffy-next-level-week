@@ -1,9 +1,3 @@
-<h1 align='center'>JSHunt - Starter da Rocketseat</h1>
-
-## Descrição do projeto :star:
-
-Uma plataforma desenvolvida através do **Starter** da [Rocketseat](https://www.rocketseat.com.br).
-
 <h1 align='center'>Proffy - Next Level Week</h1>
 
 ## Descrição do projeto :star:
