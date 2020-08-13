@@ -1,11 +1,11 @@
-<h1 align='center'>Proffy - Next Level Week</h1>
+<h1 align='center'>JSHunt - Starter da Rocketseat</h1>
 
 ## Descrição do projeto :star:
 
-Uma plataforma desenvolvida durante a semana **Next Level Week#2** da [Rocketseat](https://www.rocketseat.com.br).
+Uma plataforma desenvolvida através do **Starter** da [Rocketseat](https://www.rocketseat.com.br).
 
-Que tem o intuito de ajudar alunos e professores que desejam se conectar e trocar conhecimento entre si.
-O Sistema é completo e conta com o server, web e mobile, que foi desenvolvido totalmente durante a semana.
+Que tem o intuito de listar os repositórios de alguns framework.
+A ideia por trás da plataforma é mostrar os conceitos básicos de NodeJS, ReactJS e React Native.
 
 ## Como rodar a aplicação :arrow_forward:
 
@@ -13,7 +13,7 @@ Em caso de download do projeto você precisará baixar as dependências:
 
 **Necessário:** Yarn   
 
-Você precisará também do backend do projeto, que está no seguinte repositório: [*backend*](https://github.com/thaislsilveira/proffy-next-level-week/tree/master/server)  
+Você precisará também do backend do projeto, que está no seguinte repositório: [*backend*](https://github.com/thaislsilveira/Starter-Rocketseat/tree/master/node-api)  
 
 -Execute o comandos abaixo:
 ```
@@ -36,8 +36,4 @@ yarn start
 
 ## Web :computer:
 
-![ProffyWeb](https://github.com/thaislsilveira/proffy-next-level-week/blob/master/web/src/assets/images/Peek%2007-08-2020%2017-17.gif)
-
-## Mobile :iphone:
-
-![ProffyMobile](https://github.com/thaislsilveira/proffy-next-level-week/blob/master/mobile/assets/mobilegif01.gif) ![ProffyMobileList](https://github.com/thaislsilveira/proffy-next-level-week/blob/master/mobile/assets/mobilegif02.gif)
+![HuntWeb](https://github.com/thaislsilveira/proffy-next-level-week/blob/master/web/src/assets/images/Peek%2007-08-2020%2017-17.gif)
